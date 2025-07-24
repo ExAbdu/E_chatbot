@@ -1,0 +1,102 @@
+intents = [
+  {
+    "tag": "greeting",
+    "pattern": ["Hi", "Hello", "How are you", "What's up"],
+    "responses": ["Hi there", "Hello", "Hey", "I'm fine, thank you", "Nothing much"]
+  },
+  {
+    "tag": "goodbye",
+    "pattern": ["Bye", "Goodbye", "See you later", "Catch you later"],
+    "responses": ["Bye!", "Goodbye!", "Talk to you soon", "Take care"]
+  },
+  {
+    "tag": "thanks",
+    "pattern": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+    "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad I could help"]
+  },
+  {
+    "tag": "ask_subjects",
+    "pattern": ["What subjects do you cover?", "What can you teach?", "List available subjects"],
+    "responses": ["I can help with Math, Physics, Chemistry, English, Computer Science, and more."]
+  },
+  {
+    "tag": "exam_schedule",
+    "pattern": ["When are my exams?", "Show me my exam timetable", "Exam schedule please"],
+    "responses": ["Please specify your course or class to get the correct schedule."]
+  },
+  {
+    "tag": "assignment_deadline",
+    "pattern": ["When is the assignment due?", "Deadline for the project?", "Submission date?"],
+    "responses": ["The deadline is this Friday.", "You need to submit it by Monday next week."]
+  },
+  {
+    "tag": "lecture_time",
+    "pattern": ["When is my next lecture?", "Next class?", "Time for math class?"],
+    "responses": ["Your next lecture is at 10 AM.", "You have math class at 2 PM."]
+  },
+  {
+    "tag": "library_hours",
+    "pattern": ["When does the library open?", "Library hours?", "Is the library open now?"],
+    "responses": ["The library is open from 8 AM to 6 PM on weekdays."]
+  },
+  {
+    "tag": "study_tips",
+    "pattern": ["How can I study better?", "Give me study tips", "Tips for exam prep"],
+    "responses": ["Break study into chunks", "Use past papers", "Take regular breaks"]
+  },
+  {
+    "tag": "get_grades",
+    "pattern": ["Show me my grades", "Check my results", "Did I pass?"],
+    "responses": ["Please log in to your student portal to view grades.", "Your result will be released soon."]
+  },
+  {
+    "tag": "ask_timetable",
+    "pattern": ["What is my timetable?", "Show today's schedule", "Classes today?"],
+    "responses": ["You have English at 9 AM and Computer Science at 2 PM."]
+  },
+  {
+    "tag": "ask_location",
+    "pattern": ["Where is the lab?", "Location of the library?", "How do I get to Block C?"],
+    "responses": ["The lab is in Building B, Room 202.", "Block C is beside the admin office."]
+  },
+  {
+    "tag": "ask_cgpa",
+    "pattern": ["What is CGPA?", "How do I calculate my CGPA?", "CGPA meaning?"],
+    "responses": ["CGPA stands for Cumulative Grade Point Average. It’s calculated by averaging your GPA across semesters."]
+  },
+  {
+    "tag": "reschedule_class",
+    "pattern": ["Can I reschedule my class?", "Shift class time", "Change lecture time"],
+    "responses": ["Please contact your course advisor to request a schedule change."]
+  },
+  {
+    "tag": "academic_calendar",
+    "pattern": ["Show me the academic calendar", "When is the semester break?", "Academic dates?"],
+    "responses": ["Visit the school website or check your student portal for the academic calendar."]
+  },
+  {
+    "tag": "ask_project_topic",
+    "pattern": ["Suggest a project topic", "I need help choosing a project", "Give me a final year project topic"],
+    "responses": ["How about 'AI-Powered Learning Systems'?", "'E-library System for Schools' is another great option."]
+  },
+  {
+    "tag": "ask_supervisor",
+    "pattern": ["Who is my project supervisor?", "Supervisor name?", "Assigned supervisor?"],
+    "responses": ["Please check your departmental notice board or student portal."]
+  },
+  {
+    "tag": "ask_plagiarism",
+    "pattern": ["What is plagiarism?", "How do I avoid plagiarism?", "Plagiarism meaning?"],
+    "responses": ["Plagiarism is using someone else's work without credit. Always cite your sources."]
+  },
+  {
+    "tag": "ask_exam_venue",
+    "pattern": ["Where is my exam hall?", "Exam venue?", "Location for today's exam?"],
+    "responses": ["Your exam is in Room 305, Building A.", "Check your portal for the latest venue info."]
+  },
+  {
+    "tag": "ask_gpa_difference",
+    "pattern": ["Difference between GPA and CGPA?", "GPA vs CGPA?", "Are GPA and CGPA the same?"],
+    "responses": ["GPA is for a semester; CGPA is the average of all semesters."]
+  }
+]
